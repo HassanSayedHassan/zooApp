@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayoutid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bak3"
+    >
+
+
+    <Button
+        android:id="@+id/play_with_ai"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginBottom="0dp"
+        android:background="#00000000"
+        android:text="Enter"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        app:backgroundTint="#00FFFFFF"
+        app:cornerRadius="40dp"
+        app:rippleColor="#26972B"
+        app:strokeColor="#0E7E12"
+        app:strokeWidth="4dp" />
+</RelativeLayout>
