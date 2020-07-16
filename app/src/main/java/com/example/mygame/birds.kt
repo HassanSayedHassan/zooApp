@@ -23,7 +23,7 @@ class birds : AppCompatActivity() {
         )
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_birds)
-
+        //github
         var birdsName= arrayOf("ديك", "دجاجه","بطه")
         var birdsImg= arrayOf(R.drawable.deak,R.drawable.dgaga,R.drawable.bata)
         var birdsSoind = arrayOf(R.raw.deak,R.raw.dgaga,R.raw.batta)
