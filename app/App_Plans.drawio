@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T18:51:38.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="1Z9DDPZzKRP4aiES4s5F" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T21:35:06.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="VDiXSPi8kxhG83y3XW3E" version="14.9.2" type="github">
   <diagram id="zn2WG8OpFJcc6ndCbWCM" name="Page-1">
-    <mxGraphModel dx="633" dy="275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="633" dy="243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,7 +54,7 @@
         <mxCell id="xqwwxXM2ZZvY7xHnHfG4-40" value="Order" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="510" y="740" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="xqwwxXM2ZZvY7xHnHfG4-41" value="+Sender  User&#xa;+Reciever  Technical&#xa;+Stateus     enum.status&#xa;+data          DataTime&#xa;+Price      Double&#xa;+service_rate  Double&#xa;+tech_rate        Double&#xa;[ any_comment    String ]" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xqwwxXM2ZZvY7xHnHfG4-40">
+        <mxCell id="xqwwxXM2ZZvY7xHnHfG4-41" value="+ order id&#xa;+order uid&#xa;+Sender  User&#xa;+Reciever  Technical&#xa;+Stateus     enum.status&#xa;+data          DataTime&#xa;+Price      Double&#xa;+service_rate  Double&#xa;+tech_rate        Double&#xa;[ any_comment    String ]" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="xqwwxXM2ZZvY7xHnHfG4-40">
           <mxGeometry y="30" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="xqwwxXM2ZZvY7xHnHfG4-42" value="Messge" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
